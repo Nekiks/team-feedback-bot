@@ -6,7 +6,6 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 import asyncio
 
-"""Project packages"""
 from configs import BOT_TOKEN
 from handlers import routers
 from utils import db_all_init

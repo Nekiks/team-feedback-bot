@@ -24,9 +24,6 @@ from utils import get_feedbacks_count_user
 # print('Успех')
 # conn.commit()
 
-# """
-# добавление столбца
-# """
 # conn = db_connect(db_path('teams.db'))
 # cursor = conn.cursor()
 # cursor.execute("ALTER TABLE teams ADD COLUMN invite_hash")
